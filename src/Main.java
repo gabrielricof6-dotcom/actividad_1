@@ -19,11 +19,11 @@ public class Main {
         for (int i = 0; i < numeros.length; i++) {
 
             if (numeros[i] % 2 == 0) {
-                // Si el número es par
+                
                 pares[contPares] = numeros[i];
                 contPares++;
             } else {
-                // Si el número es impar
+                
                 impares[contImpares] = numeros[i];
                 contImpares++;
             }
